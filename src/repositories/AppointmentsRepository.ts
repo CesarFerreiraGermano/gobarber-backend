@@ -8,7 +8,7 @@ interface CreateAppointmentDTO {
 }
 
 class AppointsmentsRepository {
-    private appointments: Appointments[];
+    private appointments: Appointment[];
 
     constructor() {
         this.appointments = []
