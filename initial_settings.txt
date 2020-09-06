@@ -1,0 +1,11 @@
+# Criar de arquivo package.json
+yarn init -y
+
+yarn add express
+yarn add typescript -D
+
+# Criar arquivo tsconfig.json (configurações do typescript)
+yarn tsc --init
+
+# Exemplo de como resolver o "erro" de tipos
+yarn add @types/express -D

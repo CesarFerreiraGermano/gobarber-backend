@@ -1,0 +1,22 @@
+{
+  "name": "gobarber-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CesarFerreiraGermano/gobarber-backend.git",
+  "author": "Cesar Germano <cesar.ferreira.germano@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.2"
+  }
+}
